@@ -103,9 +103,9 @@ const researchTable = document.querySelector(".main");
 
 const research = [
     {
-        title: "Medical Appointment No Show",
-        authors: "<br><b>Problem Statement - </b> Many patients book the appointment with the doctor and then failed to attend scheduled appointments. The average No-Show is <b>20%</b> leading to <b>lower clinical efficiency</b> and loss of <b>20 million</b> every year to the Brazilian economy.<br><br> <b>Objective - </b>To investigate the reason why some patients do not show up to their scheduled appointments. Data was gathered from <b>kaggle’s</b> Medical Appointment No Show dataset and loaded in <b>google colaboratory</b> for analysis",
-        conferences: "",
+        title: "<h3>Medical Appointment No Show</h3>",
+        authors: "<br>• <b>Problem Statement - </b> Many patients book the appointment with the doctor and then failed to attend scheduled appointments. The average No-Show is <b>20%</b> leading to <b>lower clinical efficiency</b> and loss of <b>20 million</b> every year to the Brazilian economy.<br><br>• <b>Objective - </b>To investigate the reason why some patients do not show up to their scheduled appointments. Data was gathered from <b>kaggle’s</b> Medical Appointment No Show dataset and loaded in <b>google colaboratory</b> for analysis<br><br>• <b>Important features</b> to predict no-shows are age, hypertension, diabetes, neighborhood, and scholarship",
+        conferences: "<br><a href='https://github.com/dishankkalra23/Medical-Appointment-No-Shows'><b>Github Repository</b></a> - https://github.com/dishankkalra23/Medical-Appointment-No-Shows <br><a href='https://www.kaggle.com/joniarroba/noshowappointments/'><b>Kaggle</b></a> - https://www.kaggle.com/joniarroba/noshowappointments/",
         researchYr: 'May 2021 - June 2021',
         citebox: "popup1",
         image: "assets/images/research-page/no-show_image.png",
@@ -137,7 +137,7 @@ const fillData = () => {
                     </div>
         
                     <!--CITE BUTTON-->
-                    <div class="d-flex" style="margin-right:5%;">
+                    <!--<div class="d-flex" style="margin-right:5%;">
                         <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
                             Github
                         </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
@@ -145,7 +145,7 @@ const fillData = () => {
                         <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
                             Website
                         </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    </div>
+                    </div>-->
                     <div id="${absbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
                         <div class="card-body">
                             ${abstract}    
