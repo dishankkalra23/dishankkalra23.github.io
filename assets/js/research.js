@@ -110,9 +110,9 @@ const research = [
         citebox: "popup1",
         image: "assets/images/research-page/no-show_image.png",
         citation: {
-            vancouver: "Qile Zhu, Wei Bi, Xiaojiang Liu, Xiyao Ma, Xiaolin Li and Dapeng Wu. A Batch Normalized Inference Network Keeps the KL Vanishing Away. The 58th Annual Meeting of the Association for Computational Linguistics 2020."
+            vancouver: "<b>Kaggle</b> - https://www.kaggle.com/joniarroba/noshowappointments/"
         },
-        abstract: "This is currently left empty and this can be considered as a dummy data 1",
+        abstract: "<b>Repository</b> - https://github.com/dishankkalra23/Medical-Appointment-No-Shows",
         absbox: "absPopup1"
     },
 
@@ -139,11 +139,11 @@ const fillData = () => {
                     <!--CITE BUTTON-->
                     <div class="d-flex" style="margin-right:5%;">
                         <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${absbox}" aria-expanded="false" aria-controls="${absbox}">
-                            ABSTRACT
+                            Github
                         </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                 
                         <button class="button button-accent button-small text-right button-abstract " type="button" data-toggle="collapse" data-target="#${citebox}" aria-expanded="false" aria-controls="${citebox}">
-                            CITE
+                            Website
                         </button>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
                     </div>
                     <div id="${absbox}" class="collapse" aria-labelledby="headingTwo" data-parent=".collapse">
