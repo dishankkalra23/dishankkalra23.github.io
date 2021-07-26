@@ -6,12 +6,12 @@ const projectcards = document.querySelector(".projectcards");
 // Array of object for projects
 const projects = [
   {
-    title: "Quiz App",
-    cardImage: "assets/images/project-page/quiz.jpg",
-    description: "A quiz app built using basic react.",
+    title: "Medical Appointment No Show",
+    cardImage: "assets/images/project-page/no-show_image.png",
+    description: "Many patients book the appointment with the doctor and then failed to attend scheduled appointments. The average No-Show is 20% leading to lower clinical efficiency and loss of 20 million every year to the Brazilian economy.",
     tagimg: "https://cdn.iconscout.com/icon/free/png-512/react-1-282599.png",
-    Previewlink: "",
-    Githublink: "",
+    Previewlink: "https://github.com/dishankkalra23/Medical-Appointment-No-Shows",
+    Githublink: "https://github.com/dishankkalra23/Medical-Appointment-No-Shows",
   },
   {
     title: "Chess Engine",

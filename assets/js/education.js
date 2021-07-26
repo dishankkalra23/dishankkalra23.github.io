@@ -4,65 +4,55 @@ AOS.init();
 
 const moocs = document.querySelector(".moocs");
 const moocscards = [
+  // {
+  //   title: "Data Science",
+  //   cardImage: "assets/images/education-page/coursera1.png",
+  //   moocLink: "https://www.coursera.org/browse/data-science",
+  // },
+  // {
+  //   title: "Cryptography",
+  //   cardImage: "assets/images/education-page/udemy.png",
+  //   moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
+  // },
+  // {
+  //   title: "Machine Learning",
+  //   cardImage: "assets/images/education-page/coursera1.png",
+  //   moocLink: "https://www.coursera.org/learn/machine-learning",
+  // },
   {
-    title: "Data Science",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/browse/data-science",
-  },
-  {
-    title: "Cryptography",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/cryptography-for-beginners/",
-  },
-  {
-    title: "Machine Learning",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/learn/machine-learning",
-  },
-  {
-    title: "Introduction to HTML 5",
+    title: "Data Analyst Nanodegree",
     cardImage: "assets/images/education-page/udacity_logo.png",
     moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
   },
   {
-    title: "Introduction to CSS 3",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-html-and-css--ud001",
+    title: "Create and Manage Cloud Resources",
+    cardImage: "assets/images/education-page/1.png",
+    moocLink: "https://www.qwiklabs.com/public_profiles/26827f85-956e-4910-989c-a11734edf346/badges/431249",
   },
   {
-    title: "Javascript",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/intro-to-javascript--ud803",
+    title: "Perform Foundational Data, ML, and AI Tasks in Google Cloud",
+    cardImage: "assets/images/education-page/2.png",
+    moocLink: "https://www.qwiklabs.com/public_profiles/26827f85-956e-4910-989c-a11734edf346/badges/451134",
   },
   {
-    title: "Bootstrap 4",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/bootstrap-4-tutorials/",
+    title: "Insights from Data with BigQuery",
+    cardImage: "assets/images/education-page/3.png",
+    moocLink: "https://www.qwiklabs.com/public_profiles/26827f85-956e-4910-989c-a11734edf346/badges/494908",
   },
   {
-    title: "Intro to React",
-    cardImage: "assets/images/education-page/EdX.png",
-    moocLink: "https://www.edx.org/learn/reactjs",
+    title: "Engineer Data in Google Cloud",
+    cardImage: "assets/images/education-page/4.png",
+    moocLink: "https://www.qwiklabs.com/public_profiles/26827f85-956e-4910-989c-a11734edf346/badges/533698"
+   },
+  {
+    title: "Explore Machine Learning Models with Explainable AI",
+    cardImage: "assets/images/education-page/5.png",
+    moocLink: "https://www.qwiklabs.com/public_profiles/26827f85-956e-4910-989c-a11734edf346/badges/534040",
   },
   {
-    title: "Intro to React Native",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/lecture/react-native/introduction-to-react-native-Eax0D",
-  },
-  {
-    title: "NodeJS, Express and MongoDB",
-    cardImage: "assets/images/education-page/coursera1.png",
-    moocLink: "https://www.coursera.org/learn/server-side-nodejs",
-  },
-  {
-    title: "XML-AJAX",
-    cardImage: "assets/images/education-page/udemy.png",
-    moocLink: "https://www.udemy.com/course/xml-from-beginner-to-expert/",
-  },
-  {
-    title: "Data Structures & Algorithms",
-    cardImage: "assets/images/education-page/udacity_logo.png",
-    moocLink: "https://www.udacity.com/course/data-structures-and-algorithms-nanodegree--nd256",
+    title: "Integrate with Machine Learning APIs",
+    cardImage: "assets/images/education-page/6.png",
+    moocLink: "https://www.qwiklabs.com/public_profiles/26827f85-956e-4910-989c-a11734edf346/badges/534457",
   },
 ];
 
@@ -176,8 +166,8 @@ document.addEventListener("DOMContentLoaded", showCards1);
 const timeline = document.querySelector(".timeline");
 const timelinesection = [
   {
-    heading: "Massachusetts Institute of Technology",
-    image: "./assets/images/education-page/timeline-1.svg",
+    heading: "NIIT University",
+    image: "./assets/images/education-page/tiimeline_1.png",
     subheading: "Bachelors of Science, Computer Science & Engineering, (2020-2024)",
     description: "<li>Top 1% in the department</li><li>Best undergraduate Reseracher</li><li>Betsy Schumacker Woman</li><li>Athlete of the Year Award</li>",
   },
