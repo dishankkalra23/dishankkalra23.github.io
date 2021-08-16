@@ -101,18 +101,29 @@
 
 const researchTable = document.querySelector(".main");
 
+var cont1 = "<br>• <b>Problem Statement - </b> Many patients book the appointment with the doctor \
+and then failed to attend scheduled appointments. \The average No-Show is <b>20%</b> leading to \
+<b>lower clinical efficiency</b> and loss of <b>20 million</b> every year to the Brazilian economy.\
+<br><br>• <b>Objective - </b>To investigate the reason why some patients do not show up to their \
+scheduled appointments. Data was gathered from <b>kaggle’s</b> Medical Appointment No Show dataset \
+and loaded in <b>google colaboratory</b> for analysis<br><br>\
+• Important features to predict no-shows are age, hypertension, diabetes, neighborhood, and scholarship<br><br>\
+• Provided suggestions regarding improvement opportunities at the administration level\
+"
+
+
 const research = [
     {
-        title: "<h3>Medical Appointment No Show</h3>",
-        authors: "<br>• <b>Problem Statement - </b> Many patients book the appointment with the doctor and then failed to attend scheduled appointments. The average No-Show is <b>20%</b> leading to <b>lower clinical efficiency</b> and loss of <b>20 million</b> every year to the Brazilian economy.<br><br>• <b>Objective - </b>To investigate the reason why some patients do not show up to their scheduled appointments. Data was gathered from <b>kaggle’s</b> Medical Appointment No Show dataset and loaded in <b>google colaboratory</b> for analysis<br><br>• <b>Important features</b> to predict no-shows are age, hypertension, diabetes, neighborhood, and scholarship",
-        conferences: "<br><a href='https://github.com/dishankkalra23/Medical-Appointment-No-Shows'><b>Github Repository</b></a> - https://github.com/dishankkalra23/Medical-Appointment-No-Shows <br><a href='https://www.kaggle.com/joniarroba/noshowappointments/'><b>Kaggle</b></a> - https://www.kaggle.com/joniarroba/noshowappointments/",
+        title: "<h3><b><u>Medical Appointment No Show</u></b></h3>",
+        authors: cont1,
+        conferences: "<br><a href='https://github.com/dishankkalra23/Medical-Appointment-No-Shows'><b>Github Repository</b></a> - https://github.com/dishankkalra23/Medical-Appointment-No-Shows <br><a href='https://www.kaggle.com/dishankkalra/why-patients-do-not-show-up-wrangling-eda-viz'><b>Kaggle Notebook</b></a> - https://www.kaggle.com/joniarroba/noshowappointments/",
         researchYr: 'May 2021 - June 2021',
         citebox: "popup1",
         image: "assets/images/research-page/no-show_image.png",
         citation: {
-            vancouver: "<b>Kaggle</b> - https://www.kaggle.com/joniarroba/noshowappointments/"
+            vancouver: "<b>Kaggle Notebook</b>https://www.kaggle.com/dishankkalra/why-patients-do-not-show-up-wrangling-eda-viz"
         },
-        abstract: "<b>Repository</b> - https://github.com/dishankkalra23/Medical-Appointment-No-Shows",
+        abstract: "<b>Repository</b>https://github.com/dishankkalra23/Medical-Appointment-No-Shows",
         absbox: "absPopup1"
     },
 
